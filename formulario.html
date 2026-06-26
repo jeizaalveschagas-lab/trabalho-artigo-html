@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário Completo</title>
+    </head>
+    <body>
+        <h1>Formulário Completo</h1>
+
+        <form action="/action_page.php" method="post">
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <label>Nome:<br>
+                <input type="text" required></label><br><br>
+
+                <label>Sobrenome:<br>
+                <input type="text" required></label><br><br>
+
+                <label>Email:<br>
+                <input type="text" required></label><br><br>
+
+                <label>Telefone:<br>
+                <input type="text" required></label><br><br>
+
+                <label>Data de Nascimento:<br>
+                <input type="date" required></label><br>
+
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Endereço</legend>
+
+                <label>Rua:<br>
+                <input type="text" required></label><br><br>
+
+                <label>Número:<br>
+                <input type="text" required></label><br><br>
+
+                <label>Cidade:<br>
+                <input type="text" required></label><br><br>
+
+                <label>Estado:<br>
+                <input type="text" required></label><br><br>
+
+                <label>CEP:<br>
+                <input type="text" required></label><br>
+
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Preferências</legend>
+
+                <label>Cor Favorita:<br>
+                <select name="cor">
+                    <option>Vermelho</option>
+                </select></label><br><br>
+
+                Gênero:
+                <input type="radio" value="m" name="genero"> Masculino
+                <input type="radio" value="f" name="genero"> Feminino
+                <br><br>
+
+                Interesses:<br>
+                <input type="checkbox" value="esportes"> Esportes<br>
+                <input type="checkbox" value="musica"> Música<br>
+                <input type="checkbox" value="tecnologia"> Tecnologia
+
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Upload de Arquivos</legend>
+
+                <label>Escolha um arquivo:
+                <input type="file"></label>
+
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Informações de Login</legend>
+
+                <label>Nome de Usuário:<br>
+                <input type="text" required></label><br><br>
+
+                <label>Senha:<br>
+                <input type="password" required></label><br><br>
+
+                <label>Confirmar Senha:<br>
+                <input type="password" required></label><br>
+
+            </fieldset>
+            <br>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </body>
+</html>
