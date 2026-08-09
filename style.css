@@ -1,0 +1,99 @@
+/* Estilo geral da página */
+body {
+    background-color: #f0f2f5;
+    color: #0f172a;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #0284c7;
+    margin-bottom: 30px;
+}
+
+/* Cada seção do formulário */
+fieldset {
+    border: 2px solid #a2d2ff;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #ffffff;
+}
+
+legend {
+    background-color: #f0f2fa;
+    color: #0284c7;
+    padding: 4px 12px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+/* Labels em bloco, para o campo ficar sempre embaixo do nome */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Campos de texto, e-mail, senha, data etc. */
+input[type="text"],
+input[type="date"],
+input[type="password"],
+select {
+    background-color: #eaf4ff;
+    color: #0f172a;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 14px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+input[type="text"]:hover,
+input[type="date"]:hover,
+input[type="password"]:hover,
+select:hover {
+    background-color: #dceaff;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus,
+select:focus {
+    outline: none;
+    border-color: #0284c7;
+    box-shadow: 0 0 3px rgba(2, 132, 199, 0.5);
+}
+
+/* Radio e checkbox com um respiro entre eles */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+/* Upload de arquivo */
+input[type="file"] {
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+/* Botão de enviar */
+input[type="submit"] {
+    background-color: #0284c7;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #036694;
+}
